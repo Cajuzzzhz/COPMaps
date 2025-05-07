@@ -1,0 +1,20 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+name: ReactFunctionalComponent
+description: |-
+  Quando eu criar um arquivo JSX dentro de src/components,
+  gere um componente funcional React básico.
+rules:
+  - pattern: ".*src/components/.*\\.jsx"
+    actions:
+      - insert_top: |
+          import React from 'react';
+        file: "$CURRENT_FILE"
+      - insert_bottom: |
+          export default function $FILENAME() {
+            return (<div>$FILENAME works!</div>);
+          }
+        file: "$CURRENT_FILE"
