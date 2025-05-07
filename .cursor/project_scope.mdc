@@ -1,6 +1,0 @@
----
-description: 
-globs: 
-alwaysApply: true
----
-O projeto que você está desenvolvendo é o COPMaps, um web app que servirá como um guia turístico, apresentando landmarks, restaurantes e atrações em Belém, durante o período da COP 30. Ele será voltado para turistas, e terá funcionalidade de registrar uma conta para que o usuário marque no mapa onde é seu hotel e em qual quarto está hospedado.
